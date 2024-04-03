@@ -1,0 +1,10 @@
+{
+    "id": "15",
+    "type": "panas",
+    "columns": ["Per Nulla", "Poco", "Moderatamente", "Abbastanza", "Molto"],
+    "rows": ["Determinato", "Attivo", "Interessato", "Attento",
+             "Entusiasta", "Concentrato", "Forte", "Ispirato", 
+             "Eccitato", "Orgoglioso", "Impaurito", "Turbato", 
+             "Nervoso", "Agitato", "Spaventato", "Angosciato", "Colpevole", "Vergogna", "Irritabile", "Ostile"],
+    "guidelines": "Ricorda: Valuta in che misura, in questo momento, provi lo stato d'animo descritto dalla parola, rispondendo su una scala a 5 punti (Per nulla=1, Poco=2, Moderatamente=3, Abbastanza=4, Molto=5). Usa il mouse per compilare il questionario. <br> Clicca il bottone in fondo a destra, una volta completato l'intero questionario."
+}
