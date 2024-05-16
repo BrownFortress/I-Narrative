@@ -2,22 +2,35 @@ import json
 import os
 from pprint import pprint
 import random
+import argparse
+
+parser = argparse.ArgumentParser()
+
+parser.add_argument('-lang',
+    type=str,
+    help="add a dataset",
+    required=True,
+    choices=["it", "es"])
+
+args = parser.parse_args()
 
 templates = {}
 htmls = {}
-for file in os.listdir("json_templates"):
-    with open(os.path.join("json_templates", file)) as f:
+json_templates_path = os.path.join(args.lang, "json_templates")
+html_templates_path = os.path.join(args.lang, "html_templates")
+for file in os.listdir(json_templates_path):
+    with open(os.path.join(json_templates_path, file)) as f:
         name = file.split(".")[0]
         templates[name] = json.loads(f.read()) 
 
-for file in os.listdir("html_templates"):
-    with open(os.path.join("html_templates", file)) as f:
+for file in os.listdir(html_templates_path):
+    with open(os.path.join(html_templates_path, file)) as f:
         name = file.split(".")[0]
         htmls[name] = f.read()
         
-symphony = json.load(open("data/symphony.json", "r"))
-amt_words = json.load(open("data/amt_words.json", "r"))
-video_ids = json.load(open("data/video_ids.json", "r"))
+symphony = json.load(open(os.path.join(args.lang, "data", "symphony.json"), "r"))
+amt_words = json.load(open(os.path.join(args.lang, "data", "amt_words.json"), "r"))
+video_ids = json.load(open(os.path.join(args.lang, "data", "video_ids.json"), "r"))
 
 output = []
 

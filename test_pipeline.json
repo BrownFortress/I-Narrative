@@ -364,9 +364,9 @@
     {
         "id": 33,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Entusiasmo</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Felicidad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Entusiasmo"
+        "keyword": "Felicidad"
     },
     {
         "id": 34,
@@ -378,9 +378,9 @@
     {
         "id": 35,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Felicidad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Amistad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Felicidad"
+        "keyword": "Amistad"
     },
     {
         "id": 36,
