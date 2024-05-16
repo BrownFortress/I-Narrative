@@ -1,0 +1,467 @@
+[
+    {
+        "id": 0,
+        "type": "guidelines",
+        "html": "\n<h1>I-NARRATIVE</h1>\n<show>\n  <p>  \n    \u00a1Bienvenido/a al experimento I-Narrative! El objetivo del experimento es estudiar la relaci\u00f3n entre\n    el lenguaje y las emociones que se evocan en la narraci\u00f3n informal de un evento personal. </p>\n</show>\n<show>\n<p>\n El experimento est\u00e1 organizado en cuatro partes. Las dos primeras tienen el objetivo de calibrar el sensor que llevas en los dedos. Despu\u00e9s, te pediremos que nos cuentes algunas experiencias personales.    </p>\n</show>\n<show>\n<p>En resumen, las partes del experimento son: </p>\n</show>\n<show>\n  <ul class=\"list-group-flush\" style=\"list-style: none;\">\n    <show>\n      <li><b>Parte 1</b>:</li>\n      <ul>\n        <li class=\"list-group-item\">\n          Al principio de esta parte tendr\u00e1s que rellenar un cuestionario para evaluar\n          tu estado emocional inicial. A continuaci\u00f3n, se realiza una fase de relajaci\u00f3n.            </li>\n      </ul>\n    </show>\n    <show>\n      <li><b>Parte 2</b>:</li>\n      <ul>\n        <li class=\"list-group-item\">\n          En la segunda parte ver\u00e1s videoclips. Por favor, lee \n          atentamente las instrucciones que ver\u00e1s en la pantalla para poder realizar esta parte lo mejor posible. \n        </li>\n      </ul>\n    </show>\n    <show>\n      <li><b>Parte 3</b></li>\n      <ul>\n        <li class=\"list-group-item\">\nEn esta parte te pediremos que relates tus experiencias\n          personales. Por favor, lee \n          atentamente las instrucciones que ver\u00e1s en la pantalla para completar esta parte lo mejor posible.            </li>\n      </ul>\n    </show>\n    <show>\n      <li><b>Parte 4</b>:</li>\n      <ul>\n        <li class=\"list-group-item\">\n         La \u00faltima parte es igual que la primera. Te pediremos que rellenes un cuestionario para evaluar tu estado emocional en ese momento seguido de una fase de relajaci\u00f3n. \n        </li>\n      </ul>\n    </show>\n  </ul>\n</show>\n<br>\n<show>\n<p>\n  Por favor, lee atentamente todas las instrucciones que ver\u00e1s en esta pantalla. \n</p>\n</show>\n<show>\n<p>\n  Para interactuar con la pantalla, utiliza el rat\u00f3n que tienes a tu lado. Recuerda que <b>el brazo en el que llevas el sensor debe permanecer lo m\u00e1s quieto posible.</b>\n</p>\n</show>\n<show>\n<p>\n       Cuando te sientas preparado/a para embarcarte en este viaje, empieza el experimento haciendo clic con el rat\u00f3n en el bot\u00f3n de la derecha. \n</p>\n</show>\n"
+    },
+    {
+        "id": 1,
+        "type": "guidelines",
+        "html": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <h1>Fase de relajaci\u00f3n</h1>\n    <show>\n      <p>\n        En esta fase ver\u00e1s y escuchar\u00e1s un v\u00eddeo de contenido relajante. Lo utilizaremos para calibrar el sensor.\n      </p>\n    </show>\n    <show>\n      <p>\n        Por favor, en cuanto te sientas preparado para empezar, haz clic en el bot\u00f3n de la derecha.\n\n      </p>\n    </show>\n  <!-- </div>\n</div> -->\n"
+    },
+    {
+        "id": 2,
+        "type": "video_embedded",
+        "vid_name": "VideoRelaxation.mp4"
+    },
+    {
+        "id": 3,
+        "type": "guidelines",
+        "html": "<h1>Cuestionario PANAS</h1>\n<show>\n  <p>\n    En esta secci\u00f3n te pedimos que completes un cuestionario. Lee cada punto y se\u00f1ala c\u00f3mo te sientes al respecto.\n  </p>\n</show>\n<show>\n  <p>\n    Para cada punto, responde en una escala de 5 valores (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n  </p>\n</show>\n<show>\n  <p>\n    Te recordamos que no hay respuestas correctas o incorrectas, y los resultados no influir\u00e1n en absoluto en el resultado del experimento.\n  </p>\n</show>\n<show>\n  <p>\n    Cuando est\u00e9s listo/a para comenzar, haz clic con el rat\u00f3n en el bot\u00f3n aqu\u00ed a la derecha.\n  </p>\n</show>\n\n"
+    },
+    {
+        "id": 4,
+        "type": "panas",
+        "columns": [
+            "Nada",
+            "Poco",
+            " Moderadamente ",
+            "Bastante",
+            "Mucho"
+        ],
+        "rows": [
+            "Decidido",
+            "Activo",
+            "Interesado/a por las cosas",
+            "Despejado/a",
+            "Despierto/a",
+            "Entusiasmado/a",
+            "Atento/a (a las cosas)",
+            "Concentrado/a",
+            "Con energ\u00eda, con vitalidad",
+            "Inspirado/a",
+            "Emocionado/a",
+            "Ilusionado/a",
+            "Orgulloso/a (de algo)",
+            "Satisfecho/a",
+            "Conmigo mismo/a",
+            "Con miedo, miedoso/a",
+            "Intranquilo/a, inquieto/a",
+            "Nervioso/a",
+            "Agitato",
+            "Asustado/a",
+            "Disgustado/a",
+            "Molesto/a",
+            "Culpable",
+            "Avergonzado/a",
+            "Estresado/a",
+            "Tenso/a",
+            "Hostil"
+        ],
+        "guidelines": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      <b> Recuerda:</b> Eval\u00faa tu estado emocional actual utilizando las palabras listadas a continuaci\u00f3n, \n      respondiendo en una escala de 5 puntos (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n    </p>\n    <br /><i> Utiliza el rat\u00f3n para completar el cuestionario.</i> <br />\n    <i>Haz clic en el bot\u00f3n en la esquina inferior derecha una vez que hayas completado todo el cuestionario.</i>\n  <!-- </div>\n</div> -->\n\n\n\n\n\n"
+    },
+    {
+        "id": 5,
+        "type": "guidelines",
+        "html": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <h1>Visione e annotazione di videoclip</h1>\n    <show>\n      <p>\n        In questa parte, ti verr\u00e0 chiesto di guardare e ascoltare 8 video musicali e\n        di valutare le tue emozioni provate. Ogni video musicale dura circa 1 minuto,\n        dopodich\u00e9 ti verr\u00e0 chiesto di eseguire le due attivit\u00e0 secondarie descritte di\n        seguito.\n      </p>\n    </show>\n    <show>\n      <h3>Attivit\u00e0 1: Valutazione della Valenza</h3>\n      <p>\n        In questa attivit\u00e0, ti verr\u00e0 chiesto di annotare\n        <b>l'emozione </b> provata durante la visione del video. L'emozione viene espressa \n        su una scala continua che spazia da spiacevole a piacevole. \n        Tale livello viene rappresentato da una scala bipolare a 5 punti,\n        da -2 (spiacevole) a 2 (piacevole), mentre 0 rappresenta la neutralit\u00e0 (cio\u00e8\n        non hai provato nulla).\n      </p>\n    </show>\n    <show>  \n      <h3>Attivit\u00e0 2: Valutazione del Arousal (attivazione)</h3>\n      <p>\n        In questa attivit\u00e0, ti verr\u00e0 chiesto di annotare\n        <b>l'intensit\u00e0 dell'emozione </b> provata durante la visione del video.\n        L'intensit\u00e0 \u00e8 espressa su una scala continua che spazia da bassa a alta. Basso\n        significa che la forza era pari a zero, mentre alto significa che era al\n        massimo. La forza \u00e8 rappresentata da una scala a 9 punti da 0 (bassa) a 8\n        (alta).\n      </p>\n    </show>\n    <show>\n      <p>\n        Appena ti senti pronto/a per iniziare, clicca con il mouse sul bottone qui a\n        destra!\n      </p>\n    </show>\n  <!-- </div>\n</div> -->\n"
+    },
+    {
+        "id": 6,
+        "type": "video_embedded",
+        "vid_name": "1min-76-MoonSafari.mp4"
+    },
+    {
+        "video_id": "1min-76-MoonSafari.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 7
+    },
+    {
+        "video_id": "1min-76-MoonSafari.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 8
+    },
+    {
+        "id": 9,
+        "type": "video_embedded",
+        "vid_name": "1min-83-MeGustasTu.mp4"
+    },
+    {
+        "video_id": "1min-83-MeGustasTu.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 10
+    },
+    {
+        "video_id": "1min-83-MeGustasTu.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 11
+    },
+    {
+        "id": 12,
+        "type": "video_embedded",
+        "vid_name": "1min-41-GoodbyeMyLover.mp4"
+    },
+    {
+        "video_id": "1min-41-GoodbyeMyLover.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 13
+    },
+    {
+        "video_id": "1min-41-GoodbyeMyLover.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 14
+    },
+    {
+        "id": 15,
+        "type": "video_embedded",
+        "vid_name": "1min-56-BastardSetOfDreams.mp4"
+    },
+    {
+        "video_id": "1min-56-BastardSetOfDreams.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 16
+    },
+    {
+        "video_id": "1min-56-BastardSetOfDreams.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 17
+    },
+    {
+        "id": 18,
+        "type": "video_embedded",
+        "vid_name": "1min-63-Song2.mp4"
+    },
+    {
+        "video_id": "1min-63-Song2.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 19
+    },
+    {
+        "video_id": "1min-63-Song2.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 20
+    },
+    {
+        "id": 21,
+        "type": "video_embedded",
+        "vid_name": "1min-33-HowToFightLoneliness.mp4"
+    },
+    {
+        "video_id": "1min-33-HowToFightLoneliness.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 22
+    },
+    {
+        "video_id": "1min-33-HowToFightLoneliness.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 23
+    },
+    {
+        "id": 24,
+        "type": "video_embedded",
+        "vid_name": "1min-39-NicestThing.mp4"
+    },
+    {
+        "video_id": "1min-39-NicestThing.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 25
+    },
+    {
+        "video_id": "1min-39-NicestThing.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 26
+    },
+    {
+        "id": 27,
+        "type": "video_embedded",
+        "vid_name": "1min-114-HomageForSatan.mp4"
+    },
+    {
+        "video_id": "1min-114-HomageForSatan.mp4",
+        "type": "valence_annotation",
+        "scale_range": [
+            "-2",
+            "-1",
+            "0",
+            "+1",
+            "+2"
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>tu emoci\u00f3n</b> utilizando la siguiente escala. Los valores van de -2 (desagradable) a +2 (agradable), \n      y el 0 representa la neutralidad (es decir, no sentiste nada).\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 28
+    },
+    {
+        "video_id": "1min-114-HomageForSatan.mp4",
+        "type": "arousal_annotation",
+        "scale_range": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+        ],
+        "text": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      Indica <b>la intensidad de la emoci\u00f3n que est\u00e1s sintiendo</b> en una escala de 0 a 8. \n      Siendo 0 baja intensidad y 8 alta intensidad.\n    </p>\n  <!-- </div>\n</div> -->\n",
+        "id": 29
+    },
+    {
+        "id": 30,
+        "type": "guidelines",
+        "html": "\n<h1>\u00a1Hora de distraerse un poco!</h1>\n  <show>  \n    <p>\n     Hagamos una breve pausa mental para terminar la primera mitad del experimento. \n    </p>\n  </show>\n  <show>\n    <p>\n      Para recargar un poco las pilas, te proponemos este juego en el que tienes que\n      encender bombillas haciendo clic en el icono cuando aparezca en la pantalla.    </p>\n  </show>\n  <show>\n    <p>\n      <b>Te recordamos</b> que permanezcas sentado/a <b>sin mover el brazo</b> en el que llevas el sensor. \n    </p>\n  </show>\n  <show>\n    <p>\n      Cuando est\u00e9s listo/a, haz clic con el rat\u00f3n en el bot\u00f3n de la\n      derecha.    </p>\n  </show>\n\n\n"
+    },
+    {
+        "id": 31,
+        "type": "distraction_task",
+        "guidelines": "\u00a1Pulsa el bot\u00f3n INICIO y enciende tantas bombillas como puedas!",
+        "task_url": ""
+    },
+    {
+        "id": 32,
+        "type": "guidelines",
+        "html": "<h1>Narrativa</h1>\n<show>\n    <p>\n    En esta secci\u00f3n te pedimos que cuentes 6 historias relacionadas con recuerdos de eventos que han ocurrido en tu vida.\n    </p>\n</show>\n<show>\n    <p>\n        Para cada historia, te pedimos que sigas cuidadosamente las instrucciones que se te mostrar\u00e1n.\n    </p>\n</show>\n<show>\n    <p>\n        En general, es importante que el relato sea <b> lo m\u00e1s completo posible </b>. Por lo tanto, deber\u00e1s incluir la siguiente informaci\u00f3n:\n        <ul>\n            <li> D\u00eda y/o lugar del evento, </li>\n            <li> Cualquier participante involucrado, </li>\n            <li> Acciones y pensamientos (tuyos y de otros) que acompa\u00f1aron al evento, </li>\n            <li> La descripci\u00f3n de tu estado emocional durante el evento\n                <ul><li> incluyendo causas y consecuencias derivadas de tu estado emocional</li></ul>\n            </li>\n        </ul>\n    </p>\n</show>\n<show>\n    <p> En caso de que tengas dificultades para continuar con tu relato, te ayudaremos a seguir narrando mediante mensajes que aparecer\u00e1n en la pantalla. </p>\n</show>\n<show>\n    <p>\n    \u00a1Cuando est\u00e9s listo/a para empezar, haz clic con el rat\u00f3n en el bot\u00f3n aqu\u00ed a la derecha!\n    </p>\n</show>\n\n\n\n"
+    },
+    {
+        "id": 33,
+        "type": "narrative",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Entusiasmo</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "question": "",
+        "keyword": "Entusiasmo"
+    },
+    {
+        "id": 34,
+        "type": "narrative",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Culpa</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "question": "",
+        "keyword": "Culpa"
+    },
+    {
+        "id": 35,
+        "type": "narrative",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Felicidad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "question": "",
+        "keyword": "Felicidad"
+    },
+    {
+        "id": 36,
+        "type": "narrative",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Preocupaci\u00f3n</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "question": "",
+        "keyword": "Preocupaci\u00f3n"
+    },
+    {
+        "id": 37,
+        "type": "narrative",
+        "guidelines": "<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n<!-- <show>        \n    <p> \n        <b> Instrucciones:</b> \n        <ul>\n            <li> Utiliza la pregunta que se presenta a continuaci\u00f3n para traer a la mente un recuerdo de un evento que te haya ocurrido en cualquier momento de tu vida.</li> \n            <li> T\u00f3mate todo el tiempo que necesites para comenzar tu relato. </li> \n        </ul>\n    </p>\n</show> -->\n\n\n<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n        <div class=\"p-3 mb-2 question-box text-dark\"> \n            <b>Pregunta:</b> <br>\n            \u00bfPodr\u00edas recordar alg\u00fan evento que hayas vivido en el que hayas conseguido encontrar una soluci\u00f3n a un problema y por el que te hayas  <b>sentido poderoso y feliz</b>? \n        </div>\n    <!-- </div>\n</div> -->\n\n<br>\n<show> \n    <p>\n        <b> No olvides </b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional</li>\n        </ul>\n    </p>\n</show>\n\n\n    <!-- </div>\n</div> -->\n\n",
+        "question": "",
+        "keyword": "\n<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n        <div class=\"p-3 mb-2 question-box text-dark\"> \n            <b>Pregunta:</b> <br>\n            \u00bfPodr\u00edas recordar alg\u00fan evento que hayas vivido en el que hayas conseguido encontrar una soluci\u00f3n a un problema y por el que te hayas  <b>sentido poderoso y feliz</b>? \n        </div>\n    <!-- </div>\n</div> -->"
+    },
+    {
+        "id": 38,
+        "type": "narrative",
+        "guidelines": "<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n<!-- <show>        \n    <p> \n        <b> Instrucciones:</b> \n        <ul>\n            <li> Utiliza la pregunta que se presenta a continuaci\u00f3n para traer a la mente un recuerdo de un evento que te haya ocurrido en cualquier momento de tu vida.</li> \n            <li> T\u00f3mate todo el tiempo que necesites para comenzar tu relato. </li> \n        </ul>\n    </p>\n</show> -->\n\n<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n        <div class=\"p-3 mb-2 question-box text-dark\"> \n            <b>Pregunta:</b> <br>\n            \u00bfPodr\u00edas recordar alg\u00fan evento que hayas vivido en el que te hayas enfrentado a <b></b>un problema que te haya resultado dif\u00edcil de resolver</b>?\n        </div>\n    <!-- </div>\n</div> -->\n\n<br>\n<show> \n    <p>\n        <b> No olvides </b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional</li>\n        </ul>\n    </p>\n</show>\n\n\n    <!-- </div>\n</div> -->\n\n",
+        "question": "",
+        "keyword": "<!-- <div class=\"row\">\n    <div class=\"col-md-8 mx-auto\"> -->\n        <div class=\"p-3 mb-2 question-box text-dark\"> \n            <b>Pregunta:</b> <br>\n            \u00bfPodr\u00edas recordar alg\u00fan evento que hayas vivido en el que te hayas enfrentado a <b></b>un problema que te haya resultado dif\u00edcil de resolver</b>?\n        </div>\n    <!-- </div>\n</div> -->"
+    },
+    {
+        "id": 39,
+        "type": "guidelines",
+        "html": "<h1>Cuestionario PANAS</h1>\n<show>\n  <p>\n    En esta secci\u00f3n te pedimos que completes un cuestionario. Lee cada punto y se\u00f1ala c\u00f3mo te sientes al respecto.\n  </p>\n</show>\n<show>\n  <p>\n    Para cada punto, responde en una escala de 5 valores (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n  </p>\n</show>\n<show>\n  <p>\n    Te recordamos que no hay respuestas correctas o incorrectas, y los resultados no influir\u00e1n en absoluto en el resultado del experimento.\n  </p>\n</show>\n<show>\n  <p>\n    Cuando est\u00e9s listo/a para comenzar, haz clic con el rat\u00f3n en el bot\u00f3n aqu\u00ed a la derecha.\n  </p>\n</show>\n\n"
+    },
+    {
+        "id": 40,
+        "type": "panas",
+        "columns": [
+            "Nada",
+            "Poco",
+            " Moderadamente ",
+            "Bastante",
+            "Mucho"
+        ],
+        "rows": [
+            "Decidido",
+            "Activo",
+            "Interesado/a por las cosas",
+            "Despejado/a",
+            "Despierto/a",
+            "Entusiasmado/a",
+            "Atento/a (a las cosas)",
+            "Concentrado/a",
+            "Con energ\u00eda, con vitalidad",
+            "Inspirado/a",
+            "Emocionado/a",
+            "Ilusionado/a",
+            "Orgulloso/a (de algo)",
+            "Satisfecho/a",
+            "Conmigo mismo/a",
+            "Con miedo, miedoso/a",
+            "Intranquilo/a, inquieto/a",
+            "Nervioso/a",
+            "Agitato",
+            "Asustado/a",
+            "Disgustado/a",
+            "Molesto/a",
+            "Culpable",
+            "Avergonzado/a",
+            "Estresado/a",
+            "Tenso/a",
+            "Hostil"
+        ],
+        "guidelines": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      <b> Recuerda:</b> Eval\u00faa tu estado emocional actual utilizando las palabras listadas a continuaci\u00f3n, \n      respondiendo en una escala de 5 puntos (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n    </p>\n    <br /><i> Utiliza el rat\u00f3n para completar el cuestionario.</i> <br />\n    <i>Haz clic en el bot\u00f3n en la esquina inferior derecha una vez que hayas completado todo el cuestionario.</i>\n  <!-- </div>\n</div> -->\n\n\n\n\n\n"
+    },
+    {
+        "id": 41,
+        "type": "guidelines",
+        "html": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <h1>Fase de relajaci\u00f3n</h1>\n    <show>\n      <p>\n        En esta fase ver\u00e1s y escuchar\u00e1s un v\u00eddeo de contenido relajante. Lo utilizaremos para calibrar el sensor.\n      </p>\n    </show>\n    <show>\n      <p>\n        Por favor, en cuanto te sientas preparado para empezar, haz clic en el bot\u00f3n de la derecha.\n\n      </p>\n    </show>\n  <!-- </div>\n</div> -->\n"
+    },
+    {
+        "id": 42,
+        "type": "video_embedded",
+        "vid_name": "VideoEditado.mp4"
+    },
+    {
+        "id": 43,
+        "type": "finale",
+        "text": "<div class=\"col-md-8 mx-auto\">\n    <div class=\" text p-3 mb-2 bg-light text-black text-center\"> \n       <h1><div class=\"fs-2 fw-bolder text-success\">\u00a1Gracias por tu participaci\u00f3n!</div></h1>\n        <br>\n        El experimento ha terminado, <b>espera</b> a que llegue alguien del equipo para indicarte c\u00f3mo acabar. \n    </div>\n</div>"
+    }
+]

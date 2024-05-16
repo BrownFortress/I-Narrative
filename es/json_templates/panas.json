@@ -1,0 +1,36 @@
+{
+    "id": "15",
+    "type": "panas",
+    "columns": ["Nada", "Poco", " Moderadamente ", "Bastante", "Mucho"],
+    "rows": [
+            "Decidido", 
+            "Activo", 
+            "Interesado/a por las cosas", 
+            "Despejado/a", 
+            "Despierto/a", 
+            "Entusiasmado/a",
+            "Atento/a (a las cosas)", 
+            "Concentrado/a", 
+            "Con energía, con vitalidad", 
+            "Inspirado/a", 
+            "Emocionado/a", 
+            "Ilusionado/a", 
+            "Orgulloso/a (de algo)", 
+            "Satisfecho/a", 
+            "Conmigo mismo/a", 
+            "Con miedo, miedoso/a", 
+            "Intranquilo/a, inquieto/a", 
+            "Nervioso/a", 
+            "Agitato", 
+            "Asustado/a", 
+            "Disgustado/a", 
+            "Molesto/a", 
+            "Culpable", 
+            "Avergonzado/a", 
+            "Estresado/a", 
+            "Tenso/a", 
+            "Hostil"
+        ],
+    "guidelines": "Recuerda: Evalúa tu estado de ánimo actual descrito por la palabra, respondiendo en una escala de 5 puntos (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5). Utiliza el ratón para completar el cuestionario. <br> Haz clic en el botón en la esquina inferior derecha una vez que hayas completado todo el cuestionario."
+}
+

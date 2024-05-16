@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "guidelines_intro",
+    "relaxation_phase_main",
+    "panas_main",
+    "video_annotation_main",
+    "distraction_task_main",
+    "narrative_main",
+    "panas_main",
+    "relaxation_phase_main"
+  ],
+  "videos_to_annotate": 8,
+
+  "amt_narratives": 4,
+
+  "usom_narratives": 2
+}
