@@ -33,29 +33,22 @@
             "Decidido",
             "Activo",
             "Interesado/a por las cosas",
-            "Despejado/a",
-            "Despierto/a",
+            "Despejado/a, despierto/a",
             "Entusiasmado/a",
-            "Atento/a (a las cosas)",
-            "Concentrado/a",
+            "Atento/a (a las cosas), concentrado/a",
             "Con energ\u00eda, con vitalidad",
             "Inspirado/a",
-            "Emocionado/a",
-            "Ilusionado/a",
-            "Orgulloso/a (de algo)",
-            "Satisfecho/a",
-            "Conmigo mismo/a",
+            "Emocionado/a, ilusionado/a",
+            "Orgulloso/a (de algo), satisfecho/a conmigo mismo/a",
             "Con miedo, miedoso/a",
             "Intranquilo/a, inquieto/a",
             "Nervioso/a",
-            "Agitato",
+            "Agitado",
             "Asustado/a",
-            "Disgustado/a",
-            "Molesto/a",
+            "Disgustado/a,  molesto/a",
             "Culpable",
             "Avergonzado/a",
-            "Estresado/a",
-            "Tenso/a",
+            "Estresado/a, tenso/a",
             "Hostil"
         ],
         "guidelines": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      <b> Recuerda:</b> Eval\u00faa tu estado emocional actual utilizando las palabras listadas a continuaci\u00f3n, \n      respondiendo en una escala de 5 puntos (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n    </p>\n    <br /><i> Utiliza el rat\u00f3n para completar el cuestionario.</i> <br />\n    <i>Haz clic en el bot\u00f3n en la esquina inferior derecha una vez que hayas completado todo el cuestionario.</i>\n  <!-- </div>\n</div> -->\n\n\n\n\n\n"
@@ -63,7 +56,7 @@
     {
         "id": 5,
         "type": "guidelines",
-        "html": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <h1>Visione e annotazione di videoclip</h1>\n    <show>\n      <p>\n        In questa parte, ti verr\u00e0 chiesto di guardare e ascoltare 8 video musicali e\n        di valutare le tue emozioni provate. Ogni video musicale dura circa 1 minuto,\n        dopodich\u00e9 ti verr\u00e0 chiesto di eseguire le due attivit\u00e0 secondarie descritte di\n        seguito.\n      </p>\n    </show>\n    <show>\n      <h3>Attivit\u00e0 1: Valutazione della Valenza</h3>\n      <p>\n        In questa attivit\u00e0, ti verr\u00e0 chiesto di annotare\n        <b>l'emozione </b> provata durante la visione del video. L'emozione viene espressa \n        su una scala continua che spazia da spiacevole a piacevole. \n        Tale livello viene rappresentato da una scala bipolare a 5 punti,\n        da -2 (spiacevole) a 2 (piacevole), mentre 0 rappresenta la neutralit\u00e0 (cio\u00e8\n        non hai provato nulla).\n      </p>\n    </show>\n    <show>  \n      <h3>Attivit\u00e0 2: Valutazione del Arousal (attivazione)</h3>\n      <p>\n        In questa attivit\u00e0, ti verr\u00e0 chiesto di annotare\n        <b>l'intensit\u00e0 dell'emozione </b> provata durante la visione del video.\n        L'intensit\u00e0 \u00e8 espressa su una scala continua che spazia da bassa a alta. Basso\n        significa che la forza era pari a zero, mentre alto significa che era al\n        massimo. La forza \u00e8 rappresentata da una scala a 9 punti da 0 (bassa) a 8\n        (alta).\n      </p>\n    </show>\n    <show>\n      <p>\n        Appena ti senti pronto/a per iniziare, clicca con il mouse sul bottone qui a\n        destra!\n      </p>\n    </show>\n  <!-- </div>\n</div> -->\n"
+        "html": "<!-- <div class=\"row\">\n <div class=\"col-md-8 mx-auto\"> -->\n  <h1>Visualizaci\u00f3n y anotaci\u00f3n de videoclips</h1>\n  <show>\n    <p>\n      En esta parte, se te pedir\u00e1 que veas y escuches 8 v\u00eddeos musicales y eval\u00faes las emociones que sientes. Cada v\u00eddeo musical dura aproximadamente 1 minuto y luego se te pedir\u00e1 que realices dos tareas: \n    </p>\n  </show>\n  <show>\n    <h3>Actividad 1: Evaluaci\u00f3n de la valencia</h3>\n    <p>\n      En la primera actividad, deber\u00e1s indicar <b>la emoci\u00f3n </b> qu\u00e9 has sentido al ver el video en una escala que va de desagradable a agradable, representado mediante una escala bipolar de 5 puntos: de -2 (desagradable) a 2 (agradable), donde 0 representa la neutralidad (es decir, no he experimentado nada).\n    </p>\n  </show>\n  <show> \n    <h3>Actividad 2: Evaluaci\u00f3n de la activaci\u00f3n</h3>\n    <p>\n      En la segunda actividad, deber\u00e1s indicar <b> la intensidad de la emoci\u00f3n  </b> qu\u00e9 has sentido al ver el v\u00eddeo en una escala que va de baja a alta. La intensidad se representa en una escala de 0 (baja) a 8 (alta).  \n    </p>\n  </show>\n  <show>\n    <p>\n     Por favor, cuando te sientas preparado para empezar, haz clic en el bot\u00f3n de la derecha.\n    </p>\n  </show>\n<!-- </div>\n</div> -->\n"
     },
     {
         "id": 6,
@@ -364,30 +357,30 @@
     {
         "id": 33,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Felicidad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Sonrisa</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Felicidad"
+        "keyword": "Sonrisa"
     },
     {
         "id": 34,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Culpa</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Tristeza</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Culpa"
+        "keyword": "Tristeza"
     },
     {
         "id": 35,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Amistad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Entusiasmo</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Amistad"
+        "keyword": "Entusiasmo"
     },
     {
         "id": 36,
         "type": "narrative",
-        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Preocupaci\u00f3n</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
+        "guidelines": "<show>\n    <div class=\"p-3 mb-2 question-box text-dark \"> \n        <b>Pregunta:</b> <br>\n        \u00bfPodr\u00edas contarnos sobre el evento que te recuerda a la palabra <b><i>Enfermedad</i></b>?\n    </div>\n</show>\n<br>\n<show>    \n    <p>\n        <b>No olvides</b> incluir los siguientes detalles:\n        <ul>\n            <li> Lugar y/o tiempo</li>\n            <li> Participantes involucrados,</li>\n            <li> Acciones y pensamientos (tuyos y de otros)</li>\n            <li> Descripci\u00f3n de tu estado emocional </li>\n        </ul>\n    </p>\n</show>\n\n\n",
         "question": "",
-        "keyword": "Preocupaci\u00f3n"
+        "keyword": "Enfermedad"
     },
     {
         "id": 37,
@@ -422,29 +415,22 @@
             "Decidido",
             "Activo",
             "Interesado/a por las cosas",
-            "Despejado/a",
-            "Despierto/a",
+            "Despejado/a, despierto/a",
             "Entusiasmado/a",
-            "Atento/a (a las cosas)",
-            "Concentrado/a",
+            "Atento/a (a las cosas), concentrado/a",
             "Con energ\u00eda, con vitalidad",
             "Inspirado/a",
-            "Emocionado/a",
-            "Ilusionado/a",
-            "Orgulloso/a (de algo)",
-            "Satisfecho/a",
-            "Conmigo mismo/a",
+            "Emocionado/a, ilusionado/a",
+            "Orgulloso/a (de algo), satisfecho/a conmigo mismo/a",
             "Con miedo, miedoso/a",
             "Intranquilo/a, inquieto/a",
             "Nervioso/a",
-            "Agitato",
+            "Agitado",
             "Asustado/a",
-            "Disgustado/a",
-            "Molesto/a",
+            "Disgustado/a,  molesto/a",
             "Culpable",
             "Avergonzado/a",
-            "Estresado/a",
-            "Tenso/a",
+            "Estresado/a, tenso/a",
             "Hostil"
         ],
         "guidelines": "<!-- <div class=\"row\">\n  <div class=\"col-md-8 mx-auto\"> -->\n    <p>\n      <b> Recuerda:</b> Eval\u00faa tu estado emocional actual utilizando las palabras listadas a continuaci\u00f3n, \n      respondiendo en una escala de 5 puntos (Nada=1, Poco=2, Moderadamente=3, Bastante=4, Mucho=5).\n    </p>\n    <br /><i> Utiliza el rat\u00f3n para completar el cuestionario.</i> <br />\n    <i>Haz clic en el bot\u00f3n en la esquina inferior derecha una vez que hayas completado todo el cuestionario.</i>\n  <!-- </div>\n</div> -->\n\n\n\n\n\n"
